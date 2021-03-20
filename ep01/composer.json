@@ -1,0 +1,26 @@
+{
+    "name": "teste/flartur95",
+    "description": "phptips001",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artur França",
+            "email": "flartur95@gmail.com"
+        }
+    ],
+    
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "6.0.*"
+    }
+}
