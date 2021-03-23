@@ -1,0 +1,27 @@
+{
+    "name": "flartur95/phptips002",
+    "description": "Abstraco de Banco de Dados com Data Layer | PHP Tips 002",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Artur França",
+            "email": "flartur95@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/datalayer": "1.1.2"
+    }
+}
