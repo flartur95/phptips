@@ -23,6 +23,7 @@ $list = $user->find()->fetch(true);
 
 foreach($list as $userItem){
     var_dump($userItem->data());
+    var_dump($userItem->addresses());
 }
 
 
